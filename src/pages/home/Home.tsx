@@ -65,16 +65,16 @@ const Home = () => {
         <div className='bg-[#F0F0F0] container m-auto px-16 rounded-3xl py-20'>
           <h2 className='text-5xl font-bold font-serif text-center mb-16 max-lg:text-4xl max-md:text-3xl max-sm:text-2xl max-[500px]:text-xl'>BROWSE BY dress STYLE</h2>
           <div className='grid grid-cols-3 gap-5 justify-center max-lg:grid-cols-1'>
-            <div className='pb-52 pt-6 px-9 rounded-2xl shadow-lg bg-white bg-casual bg-no-repeat bg-right-top max-lg:col-span-2 max-[500px]:pb-44'>
+            <div className='bg-casual bg-no-repeat bg-right-top pb-52 pt-6 px-9 rounded-2xl shadow-lg bg-white  max-lg:col-span-2 max-[500px]:pb-44'>
               <p className='text-4xl font-bold font-serif max-md:text-3xl max-sm:text-2xl max-[500px]:text-xl'>Casual</p>
             </div>
-            <div className='pb-52 pt-6 px-9 rounded-2xl shadow-lg bg-white col-span-2 bg-formal bg-no-repeat bg-right-top max-lg:col-span-3 max-[500px]:pb-44'>
+            <div className='bg-formal bg-no-repeat bg-right-top pb-52 pt-6 px-9 rounded-2xl shadow-lg bg-white col-span-2  max-lg:col-span-3 max-[500px]:pb-44'>
               <p className='text-4xl font-bold font-serif max-md:text-3xl max-sm:text-2xl max-[500px]:text-x max-[570px]:text-right'>Formal</p>
             </div>
-            <div className='pb-52 pt-6 px-9 rounded-2xl shadow-lg bg-white col-span-2 bg-party bg-no-repeat bg-right-top max-lg:3 max-[500px]:pb-44'>
+            <div className='bg-party bg-no-repeat bg-right-top pb-52 pt-6 px-9 rounded-2xl shadow-lg bg-white col-span-2  max-lg:3 max-[500px]:pb-44'>
               <p className='text-4xl font-bold font-serif max-md:text-3xl max-sm:text-2xl max-[500px]:text-xl max-[570px]:text-right'>Party</p>
             </div>
-            <div className='pb-52 pt-5 px-9 rounded-2xl shadow-lg bg-white bg-gym bg-no-repeat bg-right-top max-lg:col-span-2 max-[500px]:pb-44'>
+            <div className='bg-gym bg-no-repeat bg-right-top pb-52 pt-5 px-9 rounded-2xl shadow-lg bg-white  max-lg:col-span-2 max-[500px]:pb-44'>
               <p className='text-4xl font-bold font-serif max-md:text-3xl max-sm:text-2xl max-[500px]:text-xl'>Gym</p>
             </div>
           </div>
